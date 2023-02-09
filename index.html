@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--en 英语的简写
+ zh-CN 中文的简写 
+-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <style>
+        body,
+        p,
+        header {
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            background: rgba(158, 158, 158, 0.4);
+            position: fixed;
+            top: 0;
+            font-size: 24px;
+        }
+
+        .img div {
+            margin: 12px 10px;
+            display: inline-block;
+        }
+
+        header .right {
+            position:absolute;
+            top: 0;
+            left: 40px;
+        }
+
+        header .left {
+            position:absolute;
+            top: 0;
+            right: 40px;
+        }
+
+        article div {
+            width: 200px;
+            margin: 150px auto;
+            padding: 30px 0;
+            text-align: center;
+            background: rgba(136, 136, 136, 0.1);
+        }
+
+        article p {
+            font: 16px/32px "微软雅黑";
+        }
+
+        .box {
+            margin-bottom: 300px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(158, 158, 158, 0.4);
+            font-size: 14px;
+            line-height: 1.9;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var study=document.querySelector(".study");
+            study.onmouseover=function(){
+                
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="img"><img src="../images/tx2.png" ; width="80px" ;>
+            <div class="right">
+                <div class="home">主页</div>
+                <div class="proj">项目</div>
+            </div>
+            <div class="left">
+                <div class="study">教程</div>
+                <div class="file">文档</div>
+            </div>
+    </header>
+    <article>
+        <div>
+            <p>一辈子不长不短</p>
+            <p>要做自己喜欢的事</p>
+            <p>不要再对谁满怀期待</p>
+        </div>
+        <div class="box">
+            <p>只有不回避痛苦和迷茫的人</p>
+            <p>才有资格谈乐观与坚定</p>
+            <p>命运不会厚待谁</p>
+            <p>悲喜也不会单为你准备</p>
+        </div>
+    </article>
+    <footer>
+        <p>版权所有:moyanxi.com</p>
+        <a href="../基础/个人网站.html">个人网站</a>
+    </footer>
+
+</body>
+
+</html>
